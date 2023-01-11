@@ -30,7 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+                "../blk-design-system-angular-master/src/assets/css/nucleo-icons.css",
+                "../blk-design-system-angular-master/node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+                "../blk-design-system-angular-master/src/assets/scss/blk-design-system.scss",
+                "../blk-design-system-angular-master/src/assets/demo/demo.css"
             ],
             "scripts": []
           },

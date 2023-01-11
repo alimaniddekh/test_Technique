@@ -1,0 +1,15 @@
+<h1>Questions :</h1>
+
+<div *ngIf="Data">
+  <h4>{{ Data.question }}</h4>
+  <ul>
+    <li *ngFor="let item of Data.response | keyvalue">
+      <input type="radio" id="{{ item.key }}" [(ngModel)]="selected" name="group1" (change)="getRadioID($event)" > {{ item.value }}
+    </li>
+  </ul>
+</div>
+<div> {{ elapsedTime }} s</div>
+
+
+<button (click)="changeMockData()">Next</button>
+
